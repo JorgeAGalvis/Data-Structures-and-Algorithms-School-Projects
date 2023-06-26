@@ -1,0 +1,66 @@
+n = 7 
+public void cubic(int n); time is: 9091
+public void exp(int n); time is: 59821
+public void constant(int n); time is: 2730
+
+
+n = 10
+public void cubic(int n); time is: 18260
+public void exp(int n); time is: 123512
+public void constant(int n); time is: 2050
+
+
+
+n = 15
+public void cubic(int n); time is: 51151
+public void exp(int n); time is: 2455155
+public void constant(int n); time is: 4470
+
+
+n = 1 
+public void cubic(int n); time is: 2470
+public void exp(int n); time is: 76071
+public void constant(int n); time is: 5280
+
+
+n = 3 
+public void cubic(int n); time is: 3070
+public void exp(int n); time is: 48621
+public void constant(int n); time is: 2050
+
+
+n = 20 
+public void cubic(int n); time is: 154532
+public void exp(int n); time is: 78854899
+public void constant(int n); time is: 11301
+
+
+n = 25
+public void cubic(int n); time is: 180072
+public void exp(int n); time is: 1873324814
+public void constant(int n); time is: 11421
+
+
+n = 27
+public void cubic(int n); time is: 224403
+public void exp(int n); time is: 5694278844
+public void constant(int n); time is: 12671
+
+
+n = 28
+public void cubic(int n); time is: 249423
+public void exp(int n); time is: 11996407372
+public void constant(int n); time is: 11440
+
+
+n = 30
+public void cubic(int n); time is: 303715
+public void exp(int n); time is: 47143768799
+public void constant(int n); time is: 11790
+
+For all cases in cubic and constant methods their execution time was reasonable;
+in my opinion, immediate; however, this was not the case for the exponential method.
+As the input size grew, the exponential method longer compared to the cubic and constant methods.
+For example, when and after n = 25, the exponential method was not immediate, showing the inefficiency of
+O(2^n). 
+
